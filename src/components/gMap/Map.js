@@ -50,7 +50,7 @@ const Map = ({ routes }) => {
 
   const getDistance = () => {
     const differentInTime = (new Date() - initialDate) / 1000;
-    return differentInTime * velocity;
+    return differentInTime * velocity; // newton bhai t * v = d
   };
 
   const moveObject = () => {
